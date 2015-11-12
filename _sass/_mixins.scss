@@ -1,12 +1,29 @@
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display:table;
+    width:100%;
+  }
+}
+
+@mixin links ($link, $visit, $hover, $active, $focus) {
+  a {
+    color: $link;
+    text-decoration: none;
+
+    &:visited {
+      color: $visit;
     }
+    &:hover {
+      color: $hover;
+      text-decoration: underline;
+    }
+    &:active {
+      color: $active;
+    }
+    &:focus {
+      color: $focus;
+    }
+  }
 }

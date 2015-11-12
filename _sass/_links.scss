@@ -1,0 +1,21 @@
+a {
+  @include links(
+    $link-color,
+    $link-visited-color,
+    $link-hover-color,
+    $link-active-color,
+    $link-focus-color
+  );
+}
+
+// Hacky fixes for chrome and moz overriding site stylesheet
+a:-any-link {
+  color: $link-color;
+}
+a:-webkit-any-link {
+  text-decoration:none !important;
+  color: $link-color;
+}
+a:-moz-any-link {
+  color: $link-color;
+}

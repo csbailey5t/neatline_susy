@@ -7,6 +7,8 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+$purple-color:     #5a3c6e;
+
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
@@ -14,6 +16,13 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+// Link variables
+$link-color:         $purple-color;
+$link-hover-color:   darken($link-color, 10%);
+$link-active-color:  $purple-color;
+$link-visited-color: $link-color;
+$link-focus-color:   $link-hover-color;
 
 // Susy variables
 $susy: (

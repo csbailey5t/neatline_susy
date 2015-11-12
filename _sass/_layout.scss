@@ -140,11 +140,15 @@
 
 // Custom styles
 .site-title {
-  @include span(6 of 12);
+  @include span(8 of 12);
+
+  img {
+    max-height: 3em;
+  }
 }
 
 .nav-toggle {
-  @include span(last 2 of 12);
+  @include span(last 3 of 12);
   padding-top: 1.5em;
 }
 

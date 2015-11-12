@@ -17,7 +17,6 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
 
     &,
     &:visited {
@@ -26,12 +25,7 @@
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
 
     .page-link {
         color: $text-color;
@@ -153,4 +147,23 @@
 
 
     }
+}
+
+// Custom styles
+.site-title {
+  @include span(6 of 12);
+}
+
+.nav-toggle {
+  @include span(last 3 of 12);
+}
+
+.nav-collapse {
+  display: block;
+  width: 100%;
+
+  li {
+    display: block;
+    text-align: center;
+  }
 }

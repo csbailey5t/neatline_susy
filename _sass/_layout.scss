@@ -102,7 +102,9 @@
   @include span(8 of 12);
 
   img {
-    max-height: 3em;
+    max-height: 4em;
+    // padding-bottom: $spacing-unit/2;
+    // with media queries, increase this at tablet and desktop size
   }
 }
 
@@ -116,6 +118,12 @@
 .nav-collapse {
   display: block;
   width: 100%;
+
+  ul {
+    &:nth-child(1) {
+      padding-top: $spacing-unit/2;
+    }
+  }
 
   li {
     display: block;

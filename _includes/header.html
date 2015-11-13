@@ -4,17 +4,17 @@
 
     <a class="site-title" href="{{ site.baseurl }}/"><img src={{"/images/neatline-logo-rgb.png" | prepend: site.baseurl}} alt="Neatline logo"></a>
 
-    <nav class="nav-collapse site-nav">
+    <nav class="nav-collapse site-nav" id="primary-nav">
       {% assign pages = site.pages | sort: "weight" %}
+        <ul>
         {% for page in pages %}
           {% unless page.exclude %}
-          <ul>
             {% if page.title %}
             <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
-          </ul>
           {% endunless %}
         {% endfor %}
+        </ul>
     </nav>
 
   </div>

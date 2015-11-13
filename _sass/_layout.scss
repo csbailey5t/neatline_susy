@@ -102,6 +102,10 @@
 .site-title {
   @include span(8 of 12);
 
+  @include breakpoint($tablet) {
+    @include span(6 of 12);
+  }
+
   img {
     max-height: 4em;
     // padding-bottom: $spacing-unit/2;
@@ -124,17 +128,41 @@
   // with higher media queries, set to fewer columns to move right
 }
 
-.nav-collapse {
+// .nav-collapse {
+//   display: block;
+//   width: 100%;
+// }
+
+#primary-nav {
   display: block;
-  width: 100%;
+  width:100%;
+
+  @include breakpoint($tablet) {
+    @include span(5 of 12);
+  }
 
   ul {
+
     &:nth-child(1) {
       padding-top: $spacing-unit/2;
     }
+
+    @include breakpoint($tablet) {
+      &:nth-child(1) {
+        padding-top: 0;
+      }
+    }
+
+    // line-height
   }
 
   li {
     display: block;
+
+    @include breakpoint($tablet) {
+      display: inline;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
   }
 }

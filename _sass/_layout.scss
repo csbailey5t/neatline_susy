@@ -106,10 +106,12 @@
     @include span(6 of 12);
   }
 
+  @include breakpoint($desktop) {
+    @include span(6 of 12);
+  }
+
   img {
     max-height: 4em;
-    // padding-bottom: $spacing-unit/2;
-    // with media queries, increase this at tablet and desktop size
   }
 }
 
@@ -125,20 +127,18 @@
     @include span(last 2 of 12);
   }
 
-  // with higher media queries, set to fewer columns to move right
 }
-
-// .nav-collapse {
-//   display: block;
-//   width: 100%;
-// }
 
 #primary-nav {
   display: block;
   width:100%;
 
   @include breakpoint($tablet) {
-    @include span(5 of 12);
+    @include span(last 5 of 12);
+  }
+
+  @include breakpoint($desktop) {
+    @include span(last 5 of 12);
   }
 
   ul {
@@ -153,7 +153,11 @@
       }
     }
 
-    // line-height
+    @include breakpoint($desktop) {
+      &:nth-child(1) {
+        padding-top: 0;
+      }
+    }
   }
 
   li {
@@ -163,6 +167,12 @@
       display: inline;
       padding-left: 5px;
       padding-right: 5px;
+    }
+
+    @include breakpoint($desktop) {
+      display: inline;
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
 }

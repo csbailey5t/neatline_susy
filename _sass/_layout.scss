@@ -95,19 +95,15 @@
 // Custom styles
 .content {
   @include container;
-  padding-left: $spacing-unit;
-  padding-right: $spacing-unit;
+  margin-left: $spacing-unit;
+  margin-right: $spacing-unit;
 }
 
 .site-title {
-  @include span(8 of 12);
+  @include span(8);
 
   @include breakpoint($tablet) {
-    @include span(6 of 12);
-  }
-
-  @include breakpoint($desktop) {
-    @include span(6 of 12);
+    @include span(6);
   }
 
   img {
@@ -123,9 +119,6 @@
   @include breakpoint($largephone) {
     @include span(last 2 of 12);
   }
-  @include breakpoint($tablet) {
-    @include span(last 2 of 12);
-  }
 
 }
 
@@ -137,10 +130,6 @@
     @include span(last 5 of 12);
   }
 
-  @include breakpoint($desktop) {
-    @include span(last 5 of 12);
-  }
-
   ul {
 
     &:nth-child(1) {
@@ -148,12 +137,6 @@
     }
 
     @include breakpoint($tablet) {
-      &:nth-child(1) {
-        padding-top: 0;
-      }
-    }
-
-    @include breakpoint($desktop) {
       &:nth-child(1) {
         padding-top: 0;
       }
@@ -171,8 +154,30 @@
 
     @include breakpoint($desktop) {
       display: inline;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
     }
   }
+}
+
+#plugins {
+
+  @include container;
+
+  #text-plugin {
+    @include breakpoint($tablet) {
+      @include span(4 of 12);
+    }
+  }
+  #waypoints-plugin {
+    @include breakpoint($tablet) {
+      @include span(4 of 12);
+    }
+  }
+  #simile-plugin {
+    @include breakpoint($tablet) {
+      @include span(last 4 of 12);
+    }
+  }
+
 }

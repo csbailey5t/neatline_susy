@@ -24,7 +24,19 @@
         border-top: 0;
       }
     }
+  }
 
+  #plugins {
+    margin-top: $spacing-unit;
+    border-top: 1px solid $grey-color-light;
+
+    // background-color: #1A3B28;
+    // color: white;
+  }
+
+  footer {
+    border-top: 1px solid $grey-color-light;
+    // background-color: #5CBA85;
   }
 
 @import "links";

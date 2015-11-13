@@ -189,6 +189,7 @@ footer {
   #slab-text {
     @include breakpoint($tablet) {
       @include span(5 of 12);
+      padding-top: $spacing-unit/2;
     }
   }
   #slab-license {
@@ -206,7 +207,6 @@ footer {
       font-size: $small-font-size;
 
       @include breakpoint($tablet) {
-        padding-top: 0;
         font-size: $base-font-size;
         text-align: center;
       }
@@ -219,7 +219,6 @@ footer {
 
     @include breakpoint($tablet) {
       @include span(last 4 of 12);
-      padding-top: 0;
     }
   }
 }

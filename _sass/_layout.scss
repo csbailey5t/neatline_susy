@@ -182,6 +182,23 @@
 
 }
 
+#updates {
+
+  @include container;
+
+  #news {
+    @include breakpoint($tablet) {
+      @include span(6 of 12);
+    }
+  }
+  #twitter {
+    @include breakpoint($tablet) {
+      @include span(last 6 of 12);
+    }
+  }
+
+}
+
 footer {
 
   @include container;

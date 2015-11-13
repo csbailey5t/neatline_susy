@@ -29,9 +29,15 @@
   #plugins {
     margin-top: $spacing-unit;
     border-top: 1px solid $grey-color-light;
-
     // background-color: #1A3B28;
     // color: white;
+
+  }
+
+  #updates {
+    margin-top: $spacing-unit;
+    border-top: 1px solid $grey-color-light;
+    padding-top: $spacing-unit;
   }
 
   footer {

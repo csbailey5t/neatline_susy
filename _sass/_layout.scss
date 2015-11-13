@@ -181,3 +181,45 @@
   }
 
 }
+
+footer {
+
+  @include container;
+
+  #slab-text {
+    @include breakpoint($tablet) {
+      @include span(5 of 12);
+    }
+  }
+  #slab-license {
+
+    @include span(6 of 12);
+
+    @include breakpoint($tablet) {
+      @include span(3 of 12);
+    }
+
+    p {
+      margin-top: 0;
+      padding-top: $spacing-unit/2;
+      // font-size should be moved to a different file at refactor
+      font-size: $small-font-size;
+
+      @include breakpoint($tablet) {
+        padding-top: 0;
+        font-size: $base-font-size;
+        text-align: center;
+      }
+    }
+  }
+  #slab-logo {
+    padding-top: $spacing-unit/2;
+
+    @include span(last 6 of 12);
+
+    @include breakpoint($tablet) {
+      @include span(last 4 of 12);
+      padding-top: 0;
+    }
+  }
+}

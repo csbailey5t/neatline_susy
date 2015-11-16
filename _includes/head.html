@@ -20,17 +20,17 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  <!-- Script to pull in posts tagged with Neatline from scholarslab.org -->
-  <script type="text/javascript" src="/js/jquery.zrssfeed.js"></script>
-  <script type="text/javascript">
-      $(document).ready(function(){
-             $('#feed').rssfeed('http://www.scholarslab.org/tag/neatline/feed/', {
-                  limit: 3,
-                  titletag: 'h3',
-                  snippet: true,
-                  more: true,
-                  header: false,
-                });
-      });
-  </script>
+  <!-- Conditionally load JS or CSS based on YAML for page/post -->
+  {% if page.custom_css %}
+    {% for stylesheet in page.custom_css %}
+      <link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
+    {% endfor %}
+  {% endif %}
+
+  {% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+      <script src="/js/{{ js_file }}.js" type="text/javascript"></script>
+    {% endfor %}
+  {% endif %}
+
 </head>

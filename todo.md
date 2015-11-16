@@ -2,3 +2,4 @@
 - Determine color palette for site, especially background colors
 - Add documentation to nav and decide whether to have documentation as part of this site or as a branch on the main neatline respo
 - Pull in all images from neatline.org docs, and decide whether to redo folder structure so it is sane and doesn't bear the traces of WP media structure
+- Set font for whole site - current uses Crimson from google fonts. Could use Open San from google fonts also.

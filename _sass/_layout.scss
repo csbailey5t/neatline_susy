@@ -186,7 +186,7 @@
 
   @include container;
 
-  #news {
+  #feed {
     @include breakpoint($tablet) {
       @include span(6 of 12);
     }

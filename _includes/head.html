@@ -9,6 +9,9 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
+  <!-- JQuery -->
+  <script src="{{"/js/jquery-1.11.3.min.js" | prepend: site.baseurl }}"></script>
+
   <!-- Responsive Nav CSS and JS -->
   <link rel="stylesheet" href="{{"/js/responsive-nav/responsive-nav.css" | prepend: site.baseurl }}">
   <script src={{"/js/responsive-nav/responsive-nav.min.js" | prepend: site.baseurl }}></script>
@@ -16,4 +19,18 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Script to pull in posts tagged with Neatline from scholarslab.org -->
+  <script type="text/javascript" src="/js/jquery.zrssfeed.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+             $('#feed').rssfeed('http://www.scholarslab.org/tag/neatline/feed/', {
+                  limit: 3,
+                  titletag: 'h3',
+                  snippet: true,
+                  more: true,
+                  header: false,
+                });
+      });
+  </script>
 </head>

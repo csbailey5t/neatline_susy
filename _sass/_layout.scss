@@ -204,9 +204,10 @@ footer {
   @include container;
 
   #slab-text {
+    padding-top: $spacing-unit/2;
+
     @include breakpoint($tablet) {
       @include span(5 of 12);
-      padding-top: $spacing-unit/2;
     }
   }
   #slab-license {

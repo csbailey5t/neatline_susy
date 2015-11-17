@@ -9,6 +9,8 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $purple-color:     #5a3c6e;
+// $bright-purple-color: #9153BA;
+$bright-purple-color: #CD88FA;
 
 $off-white: #f9f9f9;
 
@@ -28,6 +30,13 @@ $link-hover-color:   darken($link-color, 10%);
 $link-active-color:  $purple-color;
 $link-visited-color: $link-color;
 $link-focus-color:   $link-hover-color;
+
+// Footer Link variables
+$footer-link-color:         $bright-purple-color;
+$footer-link-hover-color:   darken($footer-link-color, 10%);
+$footer-link-active-color:  $bright-purple-color;
+$footer-link-visited-color: $footer-link-color;
+$footer-link-focus-color:   $footer-link-hover-color;
 
 // Susy variables
 $susy: (

@@ -8,6 +8,18 @@ a {
   );
 }
 
+footer {
+  a {
+    @include links(
+      $footer-link-color,
+      $footer-link-visited-color,
+      $footer-link-hover-color,
+      $footer-link-active-color,
+      $footer-link-focus-color
+    );
+  }
+}
+
 // Hacky fixes for chrome and moz overriding site stylesheet
 a:-any-link {
   color: $link-color;
@@ -18,4 +30,17 @@ a:-webkit-any-link {
 }
 a:-moz-any-link {
   color: $link-color;
+}
+
+footer {
+  a:-any-link {
+    color: $footer-link-color;
+  }
+  a:-webkit-any-link {
+    text-decoration:none !important;
+    color: $footer-link-color;
+  }
+  a:-moz-any-link {
+    color: $footer-link-color;
+  }
 }

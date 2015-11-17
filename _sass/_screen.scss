@@ -6,11 +6,6 @@
     padding-bottom: $spacing-unit/2;
   }
 
-  .nav-toggle {
-    // font-size: $base-font-size * 1.2;
-    // color: $purple-color;
-  }
-
   nav {
 
     li {
@@ -27,16 +22,23 @@
   }
 
   #plugins {
-    margin-top: $spacing-unit;
     border-top: 1px solid $grey-color-light;
-    // background-color: #1A3B28;
+    // background-color: $plugin-background-color;
     // color: white;
+    // use rgba to soften contrast a bit
+    // color: rgba(white, .9);
+
+    h1 {
+      text-align: center;
+    }
 
   }
 
   #updates {
-    margin-top: $spacing-unit;
     border-top: 1px solid $grey-color-light;
+    background-image: url(../images/textures/subtle_freckles.png);
+    padding-top: $spacing-unit/2;
+    margin-bottom: $spacing-unit;
 
     #feed {
       padding-top: $spacing-unit;
@@ -52,8 +54,12 @@
   }
 
   footer {
+    color: white;
+    // use rgba to soften contrast a bit
+    color: rgba(white, .9);
+    background-image: url(../images/textures/chalkboard.jpg);
     border-top: 1px solid $grey-color-light;
-    // background-color: #5CBA85;
+    background-color: $off-white;
   }
 
 @import "links";

@@ -209,8 +209,6 @@ footer {
     p {
       margin-top: 0;
       padding-top: $spacing-unit/2;
-      // font-size should be moved to a different file at refactor
-      font-size: $small-font-size;
 
       @include breakpoint($tablet) {
         font-size: $base-font-size;

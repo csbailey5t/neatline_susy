@@ -57,12 +57,11 @@
   }
 
   footer {
-    color: white;
+    color: $off-white;
     // use rgba to soften contrast a bit
-    color: rgba(white, .9);
+    color: rgba($off-white, .9);
     background-image: url(../images/textures/chalkboard.jpg);
     border-top: 1px solid $grey-color-light;
-    background-color: $off-white;
   }
 
 @import "links";

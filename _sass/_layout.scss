@@ -86,7 +86,7 @@
   @include span(8);
 
   @include breakpoint($tablet) {
-    @include span(6);
+    @include span(4);
   }
 
   img {
@@ -110,10 +110,11 @@
   width:100%;
 
   @include breakpoint($tablet) {
-    @include span(last 5 of 12);
+    @include span(last 8 of 12);
   }
 
   ul {
+    text-align: right;
 
     &:nth-child(1) {
       padding-top: $spacing-unit/2;

@@ -21,12 +21,13 @@
     }
   }
 
+  .carousel {
+    padding-bottom: $spacing-unit;
+  }
+
   #plugins {
     border-top: 1px solid $grey-color-light;
-    // background-color: $plugin-background-color;
-    // color: white;
-    // use rgba to soften contrast a bit
-    // color: rgba(white, .9);
+    margin-top: $spacing-unit/2;
 
     h1 {
       text-align: center;

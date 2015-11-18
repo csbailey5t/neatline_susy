@@ -17,7 +17,7 @@
       height: auto;
       border: 5px solid #584561;
       border-radius: 2px;
-      box-shadow: 0 0 50px rgba(0, 0, 0, 0.35);
+      // box-shadow: 0 0 50px rgba(0, 0, 0, 0.35);
       cursor: pointer;
 
       img {
@@ -42,7 +42,7 @@
       }
 
       &:hover {
-        box-shadow: 0 0 50px rgba(0, 0, 0, 0.50);
+        // box-shadow: 0 0 50px rgba(0, 0, 0, 0.50);
 
         div.launch-overlay {
           display: block;

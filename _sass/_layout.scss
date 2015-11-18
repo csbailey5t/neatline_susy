@@ -154,12 +154,12 @@
       @include span(4 of 12);
     }
   }
-  #waypoints-plugin {
+  #simile-plugin {
     @include breakpoint($tablet) {
       @include span(4 of 12);
     }
   }
-  #simile-plugin {
+  #waypoints-plugin {
     @include breakpoint($tablet) {
       @include span(last 4 of 12);
     }

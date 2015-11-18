@@ -1,0 +1,98 @@
+// Styles pulled directly from neatline.org for both demos and carousel
+
+.carousel-caption {
+    background: #222;
+    background: rgba(#222, .3);
+    // * {
+        // @include text-shadow(none);
+    // }
+  }
+
+  a.splash-link {
+    text-decoration: none;
+
+    div.splash {
+      // @include background-size(cover);
+      background-repeat:no-repeat;
+      height: auto;
+      border: 5px solid #584561;
+      border-radius: 2px;
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.35);
+      cursor: pointer;
+
+      img {
+        vertical-align:bottom;
+      }
+
+      div.launch-overlay {
+        display: none;
+        background-color: rgba(0,0,0,0.3);
+        text-align: center;
+        height: 100%;
+
+        div.launch-button {
+          position: relative;
+          color: white;
+          font-size: 2em;
+          font-style: italic;
+          text-decoration: none;
+          top: 200px;
+        }
+
+      }
+
+      &:hover {
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.50);
+
+        div.launch-overlay {
+          display: block;
+        }
+
+      }
+
+      &.hotchkiss {
+        background-image: url('../images/exhibits/chancellorsville.jpg');
+      }
+      &.nelly {
+        background-image: url('../images/exhibits/nelly.jpg');
+      }
+      &.uva {
+        background-image: url('../images/exhibits/uva.jpg');
+      }
+      &.henshaw {
+        background-image: url('../images/exhibits/henshaw1.jpg');
+      }
+      &.lovecraft {
+        background-image: url('../images/exhibits/lovecraft.jpg');
+      }
+      &.sentimental {
+        background-image: url('../images/exhibits/sentimentaljourney.png');
+      }
+      &.boston {
+        background-image: url('../images/exhibits/boston.png');
+      }
+      &.haram {
+        background-image: url('../images/exhibits/perspectives.png');
+      }
+      &.transportation {
+        background-image: url('../images/exhibits/jeddah_transportation.png');
+      }
+      &.gemini {
+        background-image: url('../images/exhibits/gemini.png');
+      }
+      &.mcgill {
+        background-image: url('../images/exhibits/mcgill.png');
+      }
+      &.ships {
+        background-image: url('../images/exhibits/ships.png');
+      }
+      &.blacklib {
+        background-image: url('../images/exhibits/blacklib.png');
+      }
+      &.whiskey {
+        background-image: url('../images/exhibits/whiskey.png');
+      }
+
+    }
+
+  }

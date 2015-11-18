@@ -5,12 +5,14 @@ Todo:
   ☐ Pull in all images from neatline.org docs, and decide whether to redo folder structure so it is sane and doesn't bear the traces of WP media structure
   ☐ switch out the hotchkiss from carousel
   ☐ try taking tagline out of logo, or otherwise give logo more space top and border-bottom
-  ☐ use dark texture on footer, find other textures which go well together for bands of content
   ☐ constrain size of svg on larger viewports
   ☐ Add link/button to download Neatline
   ☐ Standardize placement of download links with plugins
+  ☐ Edit copy on the plugins
+  ☐ Pull over styling for carousel - splash, splash-link, etc...
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+  ✔ use dark texture on footer, find other textures which go well together for bands of content @done(2015-11-18 08:57) @project(Todo)
   ✔ Set font for whole site - current uses Crimson from google fonts. Could use Open San from google fonts also. @done(2015-11-17 16:12) @project(Todo)
   ✔ replace footer logo with svg from labnotes footer @done(2015-11-17 16:12) @project(Todo)

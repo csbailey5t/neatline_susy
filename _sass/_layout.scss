@@ -232,3 +232,8 @@ footer {
     }
   }
 }
+
+// Post specific layout
+article.post {
+  padding-bottom: $spacing-unit*1.5;
+}

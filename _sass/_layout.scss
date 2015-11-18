@@ -82,6 +82,11 @@
   margin-right: $spacing-unit;
 }
 
+.site-header {
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+}
+
 .site-title {
   @include span(8);
 

@@ -8,12 +8,12 @@ Todo:
   ☐ constrain size of svg on larger viewports
   ☐ Add link/button to download Neatline
   ☐ Standardize placement of download links with plugins
-  ☐ Edit copy on the plugins
+  ✔ Edit copy on the plugins @done(2015-11-18 16:02) @project(Todo)
   ☐ Pull over styling for carousel - splash, splash-link, etc...
-  ☐ fix link to logo svg so it works in all pages...need prepend...
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+  ✔ fix link to logo svg so it works in all pages...need prepend... @done(2015-11-18 16:02) @project(Todo)
   ✔ use dark texture on footer, find other textures which go well together for bands of content @done(2015-11-18 08:57) @project(Todo)
   ✔ Set font for whole site - current uses Crimson from google fonts. Could use Open San from google fonts also. @done(2015-11-17 16:12) @project(Todo)
   ✔ replace footer logo with svg from labnotes footer @done(2015-11-17 16:12) @project(Todo)

@@ -57,6 +57,11 @@
     color: rgba($off-white, .9);
     background-image: url(../images/textures/chalkboard.jpg);
     border-top: 1px solid $grey-color-light;
+
+    #slab-logo {
+      max-height: 60px;
+    }
+    
   }
 
   .exhibit {
@@ -65,7 +70,7 @@
       margin-right: 0;
       margin-left: 0;
     }
-    
+
   }
 
   .demo {

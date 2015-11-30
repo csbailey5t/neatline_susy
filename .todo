@@ -8,10 +8,10 @@ Todo:
   ☐ Standardize placement of download links with plugins
   ☐ demo image styles are not mobile first. they have a min-height of 420px. fixing this may involve reworking the markup to be able to apply styles to the image rather than relying on background image size
   ☐ update about and credit text, especially to match new team, people gone
-  ☐ Do some more styling on slab logo in footer to handle different below tablet sizes
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+  ✔ Do some more styling on slab logo in footer to handle different below tablet sizes @done(2015-11-30 15:40) @project(Todo)
   ✔ Add content for interior pages @done(2015-11-30 15:33) @project(Todo)
   ✔ constrain size of footer logo svg on larger viewports @done(2015-11-30 15:34) @project(Todo)
   ✔ Edit copy on the plugins @done(2015-11-18 16:02) @project(Todo)

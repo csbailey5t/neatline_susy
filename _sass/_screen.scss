@@ -59,5 +59,18 @@
     border-top: 1px solid $grey-color-light;
   }
 
+  .exhibit {
+
+    figure {
+      margin-right: 0;
+      margin-left: 0;
+    }
+    
+  }
+
+  .demo {
+    min-height: 420px !important;
+  }
+
 @import "links";
 }

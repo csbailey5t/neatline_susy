@@ -12,7 +12,7 @@
     text-decoration: none;
 
     div.splash {
-      // @include background-size(cover);
+      @include background-cover;
       background-repeat:no-repeat;
       height: auto;
       border: 5px solid #584561;
@@ -50,14 +50,29 @@
 
       }
 
+      &.homepage {
+        background-image: url('../images/exhibits/neatline-splash.jpg');
+      }
       &.hotchkiss {
-        background-image: url('../images/exhibits/chancellorsville.jpg');
+        background-image: url('../images/exhibits/chancellorsville.png');
       }
       &.nelly {
         background-image: url('../images/exhibits/nelly.jpg');
       }
+      &.num132 {
+        background-image: url('../images/exhibits/132.jpg');
+      }
+      &.num138 {
+        background-image: url('../images/exhibits/138.jpg');
+      }
       &.uva {
         background-image: url('../images/exhibits/uva.jpg');
+      }
+      &.tech {
+        background-image: url('../images/exhibits/tech.jpg');
+      }
+      &.anie {
+        background-image: url('../images/exhibits/anie.jpg');
       }
       &.henshaw {
         background-image: url('../images/exhibits/henshaw1.jpg');

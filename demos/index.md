@@ -15,7 +15,7 @@ We've gathered a number of sample Neatline exhibits to help stretch your imagina
     </div>
   </div>
 </a>
-<figcaption><p>By <strong>David McClure</strong> | Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>. | Maps from the Small Special Collections Library at the University of Virginia.</p></figcaption>
+<small><p>By <strong>David McClure</strong> | Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>. | Maps from the Small Special Collections Library at the University of Virginia.</p></small>
 </figure>
 
 <p>A collection of letters written by Civil War cartographer Jedediah Hotchkiss and housed in the Small Special Collections Library at the University of Virginia includes a fascinating and unusual document. Four days after the Battle of Fredericksburg, Hotchkiss wrote a short letter to his daughter Nelly. After a describing the journey to rejoin the Confederate army and the natural surroundings of his campsite on the banks of the Rappahannock, Hotchkiss provides Nelly with a terse, understated description of the battle.</p>
@@ -65,7 +65,7 @@ We've gathered a number of sample Neatline exhibits to help stretch your imagina
   </div>
 </a>
 
-<figcaption><p>By <strong>David McClure</strong> | Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>. | Maps from the Small Special Collections Library at the University of Virginia.</p></figcaption>
+<small><p>By <strong>David McClure</strong> | Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>. | Maps from the Small Special Collections Library at the University of Virginia.</p></small>
 </figure>
 
 <p>Fought about six months after the disastrous Union defeat at the Battle of Fredericksburg, Chancellorsville was one of a series of stringing defeats that rocked the Union army in 1862 and 1863. Hotchkiss played a critical role in one of the most well-known tactical maneuvers of the war: Lee and Jackson used his sketches of the roads and logging trails in the dense forest around Chancellorsville to plan a risky, 14-mile flanking march that put Jackson into position to launch a devastating attack on the right wing of Hooker's army.</p>

@@ -213,6 +213,15 @@
   }
 }
 
+// Credits styles
+#credits {
+  @include container;
+
+  h2 {
+    @include clearfix;
+  }
+}
+
 // Footer styles
 footer {
 

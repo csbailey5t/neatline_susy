@@ -3,7 +3,6 @@
  * Site header
  */
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 }
 
@@ -19,62 +18,6 @@
     }
 }
 
-/**
- * Page content
- */
-//
-// .page-heading {
-//     font-size: 20px;
-// }
-//
-// .post-list {
-//     margin-left: 0;
-//     list-style: none;
-//
-//     > li {
-//         margin-bottom: $spacing-unit;
-//     }
-// }
-//
-// .post-link {
-//     display: block;
-//     font-size: 24px;
-// }
-
-/**
- * Posts
- */
-// .post-header {
-//     margin-bottom: $spacing-unit;
-// }
-//
-// .post-title {
-//     font-size: 42px;
-//     letter-spacing: -1px;
-//     line-height: 1;
-//
-// }
-//
-// .post-content {
-//     margin-bottom: $spacing-unit;
-//
-//     h2 {
-//         font-size: 32px;
-//
-//     }
-//
-//     h3 {
-//         font-size: 26px;
-//
-//     }
-//
-//     h4 {
-//         font-size: 20px;
-//
-//
-//     }
-// }
-
 // Custom styles
 .content {
   @include container;
@@ -85,6 +28,10 @@
 .site-header {
   padding-top: $spacing-unit;
   padding-bottom: $spacing-unit;
+
+  @include breakpoint($tablet) {
+    padding-bottom: $spacing-unit*2; 
+  }
 }
 
 .site-title {
@@ -96,6 +43,10 @@
 
   img {
     max-height: 4em;
+
+    @include breakpoint($tablet) {
+      max-height: 5em;
+    }
   }
 }
 

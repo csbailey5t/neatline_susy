@@ -5,6 +5,10 @@
     background-color: $off-white;
   }
 
+  header {
+    border-bottom: 1px solid $grey-color-light;
+  }
+
   nav {
 
     li {
@@ -20,6 +24,10 @@
     }
   }
 
+  #splash-carousel {
+    margin-bottom: $spacing-unit*2;
+  }
+
   #plugins {
     border-top: 1px solid $grey-color-light;
     margin-top: $spacing-unit/2;
@@ -28,6 +36,7 @@
 
     h1 {
       text-align: center;
+      padding-top: 0;
     }
 
   }

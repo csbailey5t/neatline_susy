@@ -1,12 +1,12 @@
 Todo:
   ☐ Add documentation to nav and decide whether to have documentation as part of this site or as a branch on the main neatline repo
   ☐ Pull in all images from neatline.org docs, and decide whether to redo folder structure so it is sane and doesn't bear the traces of WP media structure
-  ☐ Add link/button to download Neatline
-  ☐ Standardize placement of download links with plugins
+  ☐ Standardize placement of download links with plugins - this may or may not be important?
   ☐ demo image styles are not mobile first. they have a min-height of 420px. fixing this may involve reworking the markup to be able to apply styles to the image rather than relying on background image size
   ☐ update about and credit text, especially to match new team, people gone
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+  ✔ Add link/button to download Neatline @done(2015-12-01 11:40) @project(Todo)
   ✔ Determine color palette for site, especially background colors @done(2015-11-30 15:48) @project(Todo)
   ✘ switch out the hotchkiss from carousel @cancelled(2015-12-01 10: 08) @project(Todo)
   ✔ try taking tagline out of logo, or otherwise give logo more space top and border-bottom @done(2015-12-01 10: 06) @project(Todo)

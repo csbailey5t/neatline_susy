@@ -1,12 +1,3 @@
-@mixin clearfix {
-  &:before,
-  &:after {
-    content: " ";
-    display:table;
-    width:100%;
-  }
-}
-
 @mixin links ($link, $visit, $hover, $active, $focus) {
   a {
     color: $link;

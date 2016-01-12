@@ -4,8 +4,10 @@ Todo:
   ☐ Standardize placement of download links with plugins - this may or may not be important?
   ☐ demo image styles are not mobile first. they have a min-height of 420px. fixing this may involve reworking the markup to be able to apply styles to the image rather than relying on background image size
   ☐ update about and credit text, especially to match new team, people gone
+
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+  ✔ replace zrssfeed since google feed api is deprecated @done(2016-01-12 13:26) @project(Todo)
   ✔ Add link/button to download Neatline @done(2015-12-01 11:40) @project(Todo)
   ✔ Determine color palette for site, especially background colors @done(2015-11-30 15:48) @project(Todo)
   ✘ switch out the hotchkiss from carousel @cancelled(2015-12-01 10: 08) @project(Todo)

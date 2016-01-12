@@ -1,9 +1,11 @@
 $(document).ready(function(){
-       $('#feed').rssfeed('http://www.scholarslab.org/tag/neatline/feed/', {
-            limit: 3,
-            titletag: 'h3',
-            snippet: true,
-            more: true,
-            header: false,
-          });
+    'use strict';
+
+    $('#feed').FeedEk({
+        FeedUrl: 'http://www.scholarslab.org/tag/neatline/feed/',
+        MaxCount: 3,
+        ShowDesc: true,
+        DescCharacterLimit: 100,
+        ShowPubDate: false
+    });
 });

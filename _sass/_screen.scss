@@ -47,17 +47,17 @@
     padding-top: $spacing-unit/2;
     margin-bottom: $spacing-unit;
 
-    #feed {
-      padding-top: $spacing-unit;
-
-      h2 {
-        margin-top: 0;
-      }
+    h1 {
+      padding-top: 0;
+      text-align: center;
     }
 
     #twitter {
-      padding-top: $spacing-unit;
+      margin-top: $spacing-unit;
     }
+
+
+
   }
 
   footer {
